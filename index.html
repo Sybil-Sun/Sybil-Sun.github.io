@@ -15,8 +15,20 @@
     ul li { margin-bottom: 8px; }
     a { color: #0066cc; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .profile { display: flex; align-items: center; margin-bottom: 30px; }
-    .profile img { width: 200px; border-radius: 6px; margin-right: 40px; } 
+    /* .profile { display: flex; align-items: center; margin-bottom: 30px; }
+    .profile img { width: 200px; border-radius: 6px; margin-right: 40px; }  */
+    .profile {
+        display: flex;
+        align-items: center;     /* 让文字块垂直居中对齐 */
+        margin-bottom: 30px;
+      }
+      .profile img {
+        width: 300px;            /* 放大照片 */
+        height: auto;
+        border-radius: 8px;
+        margin-right: 40px;
+        object-fit: cover;       /* 裁切超出部分，保持比例 */
+      }
     .abstract {
       font-size: 0.9em;
       color: #444;
@@ -26,7 +38,7 @@
 </head>
 <body>
   <div class="profile">
-    <img src="IMG_1794.JPG.png" alt="Portrait of Ge (Sybil) Sun">
+    <img src="IMG_2572.JPG" alt="Portrait of Ge (Sybil) Sun">
     <div>
       <h1>Ge (Sybil) Sun</h1>
       <p class="subtitle">Ph.D. Candidate in Economics, University of Notre Dame (Expected May 2026)</p>
