@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Development Data Boot Camp – Course Materials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* —— 与主页风格一致 —— */
+    body { font-family: "Times New Roman", Georgia, serif; max-width: 900px; margin: 40px auto; line-height: 1.6; color: #333; }
+    h1 { margin: 0 0 8px 0; font-family: Georgia, serif; }
+    .section { margin-top: 36px; }
+    .section h2 { border-bottom: 1px solid #ccc; padding-bottom: 6px; font-family: Georgia, serif; margin-bottom: 12px; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color:#666; }
+    /* 文件清单样式 */
+    ul.files { list-style: none; padding-left: 0; margin: 10px 0 0 0; }
+    ul.files li { margin: 8px 0; }
+    .path { font-family: Georgia, serif; font-style: italic; color:#666; }
+    .dot { color:#aaa; padding: 0 6px; }
+    /* 分组容器（卡片感） */
+    .group { border: 1px solid #ddd; border-radius: 8px; padding: 14px 16px; margin-top: 12px; background: #fafafa; }
+  </style>
+</head>
+<body>
+  <h1>Development Data Boot Camp – Course Materials</h1>
+  <!-- <p class="muted">All materials on one page. Links reflect the folder hierarchy but stay on this page.</p> -->
+  <p><a href="../">&larr; Back to Homepage</a></p>
+
+  <!-- 顶层文件 -->
+  <div class="section">
+    <h2>Top Level</h2>
+    <ul class="files">
+      <!-- 把文件名换成你的实际文件；空格需用 %20 -->
+      <li>
+        <span class="path">/</span><span class="dot">•</span>
+        <a href="DevDataBootcamp%20Syllabus.pdf" target="_blank" rel="noopener">Syllabus (PDF)</a>
+      </li>
+      <!-- 如需“打包下载”，把 zip 放在同目录并取消下一行注释 -->
+      <!-- <li><span class="path">/</span><span class="dot">•</span><a href="bootcamp_materials.zip">Download all (.zip)</a></li> -->
+    </ul>
+  </div>
+
+  <!-- Slides 分组（所有讲义都列在这一页） -->
+<div class="section">
+  <h2>Slides</h2>
+  <div class="group">
+    <ul class="files">
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/01_Introduction%20and%20Preparation.pdf" target="_blank" rel="noopener">Lecture 1 — Introduction and Preparation (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/02_Intro%20to%20Stata.pdf" target="_blank" rel="noopener">Lecture 2 — Intro to Stata (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/03_Making%20Effective%20Graphs.pdf" target="_blank" rel="noopener">Lecture 3 — Making Effective Graphs (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/04_Linear%20Regression.pdf" target="_blank" rel="noopener">Lecture 4 — Linear Regression (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/05_Relational%20Databases.pdf" target="_blank" rel="noopener">Lecture 5 — Relational Databases (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/06_Prepare%20for%20your%20own%20Research.pdf" target="_blank" rel="noopener">Lecture 6 — Prepare for your own Research (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Slides/</span><span class="dot">•</span>
+        <a href="Slides/07_String%20Commands.pdf" target="_blank" rel="noopener">Lecture 7 — String Commands (PDF)</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Class Exercise 分组（同页展示） -->
+<div class="section">
+  <h2>Class Exercise</h2>
+
+  <!-- 顶层文件 -->
+  <div class="group">
+    <ul class="files">
+      <li>
+        <span class="path">Class_Exercise/</span><span class="dot">•</span>
+        <a href="Class_Exercise/Class_Exercise.md" target="_blank" rel="noopener">Class_Exercise_Questions.md</a>
+        <span class="muted"> · Markdown</span>
+      </li>
+      <li>
+        <span class="path">Class_Exercise/</span><span class="dot">•</span>
+        <a href="Class_Exercise/dofiles/codes_for_class.do" target="_blank" rel="noopener">codes_for_class.do</a>
+        <span class="muted"> · Stata do-file</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- data 子目录：把实际文件逐项补上 -->
+  <div class="group">
+    <h3 style="margin:0 0 6px 0; font-family:Georgia,serif;">Data</h3>
+    <ul class="files">
+      <!-- 示例：按需添加你的真实文件名 -->
+      <li>
+        <span class="path">Class_Exercise/data/</span><span class="dot">•</span>
+        <a href="data.zip" target="_blank" rel="noopener">sample.csv</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- Exercise 分组（同样全部列在这一页） -->
+<div class="section">
+  <h2>Exercise</h2>
+  <div class="group">
+    <ul class="files">
+      <li>
+        <span class="path">Exercise/</span><span class="dot">•</span>
+        <a href="Exercise/ExerciseQuestions.pdf" target="_blank" rel="noopener">Exercise Questions (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Exercise/</span><span class="dot">•</span>
+        <a href="Exercise/Topic1.pdf" target="_blank" rel="noopener">Solutions — Topic 1 (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Exercise/</span><span class="dot">•</span>
+        <a href="Exercise/Topic2.pdf" target="_blank" rel="noopener">Solutions — Topic 2 (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Exercise/</span><span class="dot">•</span>
+        <a href="Exercise/Topic3.pdf" target="_blank" rel="noopener">Solutions — Topic 3 (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Exercise/</span><span class="dot">•</span>
+        <a href="Exercise/Topic4.pdf" target="_blank" rel="noopener">Solutions — Topic 4 (PDF)</a>
+      </li>
+      <li>
+        <span class="path">Exercise/</span><span class="dot">•</span>
+        <a href="Exercise/Topic5.pdf" target="_blank" rel="noopener">Solutions — Topic 5 (PDF)</a>
+      </li>
+
+      <!-- 建议“Final Project”只在 Top Level 显示，避免重复；
+           若仍想在此处展示，取消以下注释即可。 -->
+      
+      <li>
+        <span class="path">/</span><span class="dot">•</span>
+        <a href="Final%20Project.pdf" target="_blank" rel="noopener">Final Project (PDF)</a>
+      </li>
+     
+    </ul>
+  </div>
+</div>
+
+  <p class="muted" style="margin-top:40px;">Last updated:
+    <script>document.write(new Date().toISOString().slice(0,10));</script>
+  </p>
+</body>
+</html>
